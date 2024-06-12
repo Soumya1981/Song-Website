@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Song</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="all">
+        <div class="sidebar" id="sidebar">
+            <div class="heading">
+                <h1>Sing-<span>Song</span></h1>
+                <div class="nav-toggle">
+                    <span id="bars"></span>
+                    <i class="fa-solid fa-xmark" id="crossbar"></i>
+                </div>
+            </div>
+            <div class="searchsection">
+                <ul class="nav">
+                    <li> <a href="#" class="active"><i class="fa fa-home"></i>Home</a></li>
+                    <li> <a href="#"><i class="fa fa-user"></i>About</a></li>
+
+                </ul>
+
+                <input type="text" class="Searchengine" placeholder="Search Music.." name="search">
+                <div class="search_result">
+                </div>
+            </div>
+            <div class="songlistheading">
+                <h3>Song-List</h3>
+            </div>
+            <div class="songlist">
+                <ul>
+                    <li><img class="bannerimage" src="images/1.jpeg" alt="" srcset="">
+                        <p> Dhera Dhera Dhera</p><span><i id="0" class="far fa-play-circle songitemplay"></i></span>
+                    </li>
+                    <li><img class="bannerimage" src="images/2.jpeg" alt="" srcset="">
+                        <p> Hangover</p><span><i id="1" class="far fa-play-circle songitemplay"></i></span>
+                    </li>
+                    <li><img class="bannerimage" src="images/3.jpeg" alt="" srcset="">
+                        <p> Saara India</p><span><i id="2" class="far fa-play-circle songitemplay"></i></span>
+                    </li>
+                    <li><img class="bannerimage" src="images/4.jpeg" alt="" srcset="">
+                        <p> Akhiyaan Milavanga</p><span><i id="3" class="far fa-play-circle songitemplay"></i></span>
+                    </li>
+                    <li><img class="bannerimage" src="images/5.jpeg" alt="" srcset="">
+                        <p>ButtaBomma</p><span><i id="4" class="far fa-play-circle songitemplay"></i></span>
+                    </li>
+                    <li><img class="bannerimage" src="images/6.jpeg" alt="" srcset="">
+                        <p> Ramuloo Ramulaa</p><span><i id="5" class="far fa-play-circle songitemplay"></i></span>
+                    </li>
+                    <li><img class="bannerimage" src="images/7.jpeg" alt="" srcset="">
+                        <p> Apsara Aali</p><span><i id="6" class="far fa-play-circle songitemplay"></i></span>
+                    </li>
+                    <li><img class="bannerimage" src="images/8.jpeg" alt="" srcset="">
+                        <p> O Desh Mere</p><span><i id="7" class="far fa-play-circle songitemplay"></i></span>
+                    </li>
+                    <li><img class="bannerimage" src="images/9.jpeg" alt="" srcset="">
+                        <p> Paani Paani</p><span><i id="8" class="far fa-play-circle songitemplay"></i></span>
+                    </li>
+                    <li><img class="bannerimage" src="images/10.jpeg" alt="" srcset="">
+                        <p> Bam Bhole</p><span><i id="9" class="far fa-play-circle songitemplay"></i></span>
+                    </li>
+                    <li><img class="bannerimage" src="images/11.jpeg" alt="" srcset="">
+                        <p>Bandeya</p><span><i id="10" class="far fa-play-circle songitemplay"></i></span>
+                    </li>
+                    <li><img class="bannerimage" src="images/12.jpeg" alt="" srcset="">
+                        <p>Barsaat Ki Dhun</p><span><i id="11" class="far fa-play-circle songitemplay"></i></span>
+                    </li>
+                    <li><img class="bannerimage" src="images/13.jpeg" alt="" srcset="">
+                        <p> Bedardi Se Pyaar Ka</p><span><i id="12" class="far fa-play-circle songitemplay"></i></span>
+                    </li>
+                    <li><img class="bannerimage" src="images/14.jpeg" alt="" srcset="">
+                        <p>Bella Ciao</p><span><i id="13" class="far fa-play-circle songitemplay"></i></span>
+                    </li>
+                    <li><img class="bannerimage" src="images/15.jpeg" alt="" srcset="">
+                        <p> Bheege Bheege</p><span><i id="14" class="far fa-play-circle songitemplay"></i></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="rightside">
+            <div class="artist">
+                <div class="singer"><img src="images/atif.jpeg" alt="" srcset="">Atif Aslam</div>
+                <div class="singer"><img src="images/palak mucchal.jpeg" alt="" srcset="">Palak Muchhal</div>
+                <div class="singer"><img src="images/jubin.jpeg" alt="" srcset="">Jubin Nautiyal</div>
+                <div class="singer"><img src="images/shreya ghoshal.jpeg" alt="" srcset="">Shreya Ghoshal</div>
+                <div class="singer"><img src="images/arijit sing.jpeg" alt="" srcset="">Arijit Singh</div>
+            </div>
+            <div class="roundartist">
+
+                <div class="round" id="round"><img id="coverimage" src="images/1.jpeg" alt="" srcset=""></div>
+                <div class="allprogress">
+                    <span class="currentStart" id="currentStart">00:00</span>
+                    <div class="bar">
+                        <input type="range" name="range" id="myprogressbar" min="0" value="0" max="100">
+                        <div class="bar2" id="bar2"></div>
+                        <div class="dot" id="dot"></div>
+                    </div>
+                    <span class="currentEnd" id="currentEnd">00:00</span>
+
+                </div>
+                <p id="songname">Dhera Dhera Dhera</p>
+            </div>
+            <div class="switcher">
+                <div class="allswitch">
+                    <i class="fa-solid fa-backward" id="Previous" title="Previous"></i>
+                    <i class="fa-solid fa-circle-play" id="Play" title="Play"></i>
+                    <i class="fa-solid fa-forward" id="Next" title="Next"></i>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="Sing-song.js"></script>
+</body>
+
+</html>
